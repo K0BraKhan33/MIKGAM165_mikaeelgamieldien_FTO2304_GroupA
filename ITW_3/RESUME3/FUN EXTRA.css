@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    color:#000000;
+    background-color: gray;
+
+
+
+}
+section{
+
+
+}
+.white{
+    background: #fff;
+}
+.black{
+    background: #000000;
+}
+.red{
+    background: #dd0707 ;
+}
+.curve{
+    position: absolute;
+    height: 225px;
+    width:100%;
+    bottom:0;
+}
+.curve::before{
+    content: '';
+    display: block;
+    position:absolute;
+    border-radius: 100% 50%;
+    width:55%;
+    height: 100%;
+    background-color: white;
+    transform: translate(85%, 60%);
+}
+.curve::after {
+    content: '';
+    display: block;
+    position:absolute;
+    border-radius: 100% 50%;
+    width:55%;
+    height: 100%;
+    background-color: grey;
+    transform: translate(-4%, 40%);
+z-index: -1;}
