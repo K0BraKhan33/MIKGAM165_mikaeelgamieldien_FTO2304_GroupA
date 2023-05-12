@@ -2,14 +2,16 @@ body{
     margin: 0;
     font-family: 'Courier New', Courier, monospace;
     color:#000000;
+    background: rgb(121, 138, 121);
   
 
 
 
 }
 section{
-    color:aqua;
-    size: 35px;
+    color:rgb(193, 196, 53);
+    background: rgb(14, 71, 14);
+    size: 50px;
 
 
 }
@@ -19,8 +21,14 @@ section{
 .black{
     background: #000000;
 }
-.red{
-    background: #dd0707 ;
+.magenta{
+    color: #46abbd ;
+}
+.oppback{
+      background: rgb(14, 71, 14);
+    color:rgb(200, 219, 117);
+    position:absolute;
+
 }
 .curve{
     position: absolute;
@@ -35,7 +43,7 @@ section{
     border-radius: 100% 50%;
     width:55%;
     height: 100%;
-    background-color: white;
+    background-color:rgb(156, 189, 156);
     transform: translate(85%, 60%);
 }
 .curve::after {
@@ -45,6 +53,6 @@ section{
     border-radius: 100% 50%;
     width:55%;
     height: 100%;
-    background-color: grey;
+    background-color:rgb(55, 68, 55);
     transform: translate(-4%, 40%);
 z-index: -1;}
