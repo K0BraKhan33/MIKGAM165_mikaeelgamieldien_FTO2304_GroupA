@@ -41,7 +41,11 @@ img {
     height: 200px;
 
 }
-
+.nam{
+    float:right;
+    font-size: 25px;
+    color:black;
+}
 .butclick {
     float: top;
     display: inline-flex;
@@ -58,7 +62,7 @@ img {
     font-weight: 500;
     cursor: pointer;
     color: rgb(8, 42, 70);
-    margin: 100px;
+    margin: 80px;
 
 }
 
@@ -122,4 +126,8 @@ img {
     background-color: grey;
     transform: translate(-4%, 40%);
     z-index: -1;
+}
+footer{
+    float:top;
+    margin-left:750px;
 }
