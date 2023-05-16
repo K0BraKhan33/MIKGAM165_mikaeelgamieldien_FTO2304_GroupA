@@ -2,16 +2,9 @@ body {
     margin: 0;
     font-family: 'Courier New', Courier, monospace;
     color: #000000;
-    background: rgb(216, 216, 216);
+    background: rgb(162, 214, 188);
     display: block;
     min-width: 600px;
-}
-
-.links{
-    width:80px;
-    height: 30px;
-    border-radius: 0%;
-    position: center;
 }
 
 .blocks_mains {
@@ -20,90 +13,52 @@ body {
 
     min-width: 600px;
     margin: 0;
-<<<<<<< HEAD
-    
-
-=======
     margin-bottom: 100px;
->>>>>>> aff3b3cd633feb6f5305c4c31522d426f4c55d6a
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 14;
-    background:rgb(231, 231, 231);
+    background: linear-gradient(257deg, rgb(17, 81, 70)0%, rgb(158, 197, 171)50%, rgb(16, 79, 85)100%);
     color: rgb(0, 29, 109)
 }
 
 .blocks_about {
 
     margin: 0;
-<<<<<<< HEAD
-    margin-bottom: 0px;
-
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 14;
-    background: rgb(231, 231, 231);
-=======
     min-width: 600px;
     margin-bottom: 100px;
 
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 14;
-<<<<<<< HEAD
     background: linear-gradient(257deg, rgb(17, 81, 70)0%, rgb(158, 197, 171)50%, rgb(16, 79, 85)100%);
     color: rgb(177, 185, 82)
-=======
-    background: rgb(255, 255, 255);
->>>>>>> aff3b3cd633feb6f5305c4c31522d426f4c55d6a
-    color: rgb(0, 0, 0)
->>>>>>> 084bcdcc4a2736dc4c1a775df3ffb1a3973aeb8f
 }
 
 .blocks_text {
     min-width: 600px;
 
     margin-left: 000px;
-    margin-top: 0;
-    height :750px ;
+    margin-top: 500px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-<<<<<<< HEAD
     font-size: 14;
     
     background: #a4946159;
     color: rgb(66, 37, 75)
-=======
- 
-    background: rgb(216, 216, 216);
-    color: rgb(0, 0, 0);
-    font-size: 20px;
->>>>>>> 084bcdcc4a2736dc4c1a775df3ffb1a3973aeb8f
 }
 .blocks_EXP {
 
     min-width: 600px;
     margin-left: 000px;
-    margin-bottom: 200px;
+    margin-top: 200px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-<<<<<<< HEAD
     font-size: 14;
     background: #a4946159;
-=======
-    font-size: 20px;
-<<<<<<< HEAD
-    background:rgb(216, 216, 216);
-    color: rgb(0, 0, 0)
-=======
-    background: #94949459;
->>>>>>> 084bcdcc4a2736dc4c1a775df3ffb1a3973aeb8f
     color: rgb(66, 37, 75)
->>>>>>> aff3b3cd633feb6f5305c4c31522d426f4c55d6a
-    
 }
 
 .asides {
  margin-right: 20px;
- margin-bottom: 800px;
     float: left;
     font-size: 20px;
-    background: rgb(216, 216, 216);
+    background: linear-gradient(257deg, rgb(17, 81, 70)0%, rgb(158, 197, 171)50%, rgb(16, 79, 85)100%);
 
 
 
@@ -111,17 +66,12 @@ body {
 }
 
 
-.imga {
+img {
     float: right;
     border-radius: 100%;
-<<<<<<< HEAD
-    width: 180px;
-    height: 180px;
-=======
     width: 9.7%;
     height: 9.7%;
     display:inline-flex;
->>>>>>> aff3b3cd633feb6f5305c4c31522d426f4c55d6a
 
 }
 
@@ -142,7 +92,7 @@ body {
     max-height: 40px ;
 
     padding: 0;
-    background: rgb(0, 0, 0);
+    background: rgb(201, 202, 124);
     border: none;
     outline: rgb(0, 0, 0);
     border-radius: 50px;
@@ -150,22 +100,17 @@ body {
     font-size: 18px;
     font-weight: 500;
     cursor: pointer;
-<<<<<<< HEAD
-    color: rgb(252, 252, 252);
-    margin: 80px;
-=======
     color: rgb(8, 42, 70);
     margin-top: 4%;
     margin-bottom: 4%;
     margin-right: 2%;
     margin-left: 1%;
->>>>>>> aff3b3cd633feb6f5305c4c31522d426f4c55d6a
 
 }
 
 .butclick:hover {
-    background: rgb(94, 94, 94);
-    color: rgb(189, 189, 189);
+    background: rgb(106, 238, 106);
+    color: rgb(21, 99, 69);
     font-style: italic;
 }
 
