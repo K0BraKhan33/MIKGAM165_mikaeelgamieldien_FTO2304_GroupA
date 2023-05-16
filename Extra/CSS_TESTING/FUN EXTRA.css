@@ -5,6 +5,8 @@ body{
     background: rgb(#EE85B5);
 
 }
+
+
 .butclick{
     display: inline-flex;
     height: 40px;
@@ -74,3 +76,9 @@ body{
     background-color: grey;
     transform: translate(-4%, 40%);
 z-index: -1;}
+
+.links{
+    width:20px;
+    height: 20px;
+    border-radius: 0%;
+}
